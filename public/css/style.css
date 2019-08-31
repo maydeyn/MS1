@@ -35,7 +35,7 @@ a {
   color: white;
 }
 
-.heavy-arm:hover,
+.instructions_for_strangers:hover,
 .catch-me:hover,
 .gallery:hover,
 .orbit:hover {
@@ -43,7 +43,7 @@ a {
   font-weight: 900;
 }
 
-.heavy-arm {
+.instructions_for_strangers {
   grid-row: 6;
   grid-column: 2;
   font-family: "Roboto", sans-serif;
@@ -189,4 +189,11 @@ a {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 0.8fr;
+  grid-template-rows: repeat(10, auto);
+  grid-row-gap: 10px;
 }
