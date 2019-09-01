@@ -106,6 +106,10 @@ a {
   grid-column: 2;
 }
 
+#brainstorm {
+  grid-column: 2;
+}
+
 #concept-sketch {
   grid-column: 2;
 }
