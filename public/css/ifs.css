@@ -13,6 +13,7 @@ a {
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(6, auto);
   grid-column-gap: 60px;
+  justify-items: center;
 }
 
 .one {
@@ -35,8 +36,12 @@ a {
 .four {
   grid-row: 6;
   grid-column: 6;
-
   font-size: 16px;
+}
+
+.five {
+  grid-row: 6;
+  grid-column: 7;
 }
 .caroni-font:hover {
   color: white;
