@@ -9,39 +9,39 @@ a {
 }
 
 .container {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(6, auto);
-  grid-column-gap: 60px;
-  justify-items: center;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .one {
   grid-row: 6;
-  grid-column: 3;
+  /* grid-column: 2; */
   font-size: 16px;
 }
 
 .two {
   grid-row: 6;
-  grid-column: 4;
+  /* grid-column: 3; */
   font-size: 16px;
 }
 
 .three {
   grid-row: 6;
-  grid-column: 5;
+  /* grid-column: 4; */
   font-size: 16px;
 }
 .four {
   grid-row: 6;
-  grid-column: 6;
+  /* grid-column: 5; */
   font-size: 16px;
 }
 
 .five {
   grid-row: 6;
-  grid-column: 7;
+  /* grid-column: 6; */
 }
 .caroni-font:hover {
   color: white;
@@ -61,9 +61,10 @@ a {
 .one:hover,
 .two:hover,
 .three:hover,
-.four:hover {
-  background-color: black;
+.four:hover,
+.five:hover {
   font-weight: 900;
+  font-size: 18px;
   color: white;
 }
 
