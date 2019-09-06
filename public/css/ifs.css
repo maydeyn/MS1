@@ -8,6 +8,11 @@ a {
   background-color: black;
 }
 
+a:hover {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -42,7 +47,7 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
-.one:hover,
+/* .one:hover,
 .two:hover,
 .three:hover,
 .four:hover,
@@ -52,7 +57,7 @@ a {
   font-weight: 900;
   font-size: 18px;
   color: white;
-}
+} */
 
 #instructions_for_strangers {
   text-align: center;
@@ -107,6 +112,15 @@ footer {
   right: 0;
   bottom: 0;
   padding: 30px;
-  border-spacing: 20px;
   font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  padding: 30;
+  font-size: 24;
 }
