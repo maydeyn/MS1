@@ -89,14 +89,14 @@ a:hover {
   justify-items: center;
 }
 
-#intro,
-#aeiou,
-#behavior-map,
-#brainstorm,
-#concept-sketch,
-#prototype,
-#expectations,
-#reflection {
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h {
   grid-column: 2;
 }
 
