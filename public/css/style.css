@@ -130,7 +130,7 @@ a {
   transform: rotateY(-270deg) translateX(100px);
   -webkit-transform-origin: top right;
   transform-origin: top right;
-  background: aquamarine;
+  background: rgb(21, 126, 206);
   opacity: 0.8;
   font-size: 16px;
 }
@@ -163,7 +163,8 @@ a {
 
 .back:hover,
 .left:hover,
-.front:hover {
+.front:hover,
+.right:hover {
   opacity: 0.9;
   font-size: 20px;
   font-weight: 900;
