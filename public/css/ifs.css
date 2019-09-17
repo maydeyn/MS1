@@ -21,17 +21,6 @@ a:hover {
   padding-bottom: 25px;
 }
 
-/* .one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven {
-  grid-row: 6;
-  font-size: 16px;
-} */
-
 .caroni-font:hover {
   color: white;
   background-color: black;
@@ -46,18 +35,6 @@ a:hover {
   background-color: white;
   font-family: "Roboto", sans-serif;
 }
-
-/* .one:hover,
-.two:hover,
-.three:hover,
-.four:hover,
-.five:hover,
-.six:hover,
-.seven:hover {
-  font-weight: 900;
-  font-size: 18px;
-  color: white;
-} */
 
 #instructions_for_strangers {
   text-align: center;
