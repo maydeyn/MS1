@@ -63,7 +63,7 @@ a:hover {
   grid-template-rows: repeat(10, auto);
   grid-row-gap: 10px;
   line-height: 30px;
-  justify-items: center;
+  /* justify-items: center; */
 }
 
 #a1,
