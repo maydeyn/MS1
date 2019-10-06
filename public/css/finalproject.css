@@ -120,3 +120,9 @@ header {
 #indent {
   text-indent: 40px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
