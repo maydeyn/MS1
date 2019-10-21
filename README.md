@@ -1,7 +1,7 @@
 #### Parsons MAF Design and Technology
-#### Major Studio 1
+#### Major Studio 1 Project Documentations
 #### Professor: Harpreet Sareen
-### [Live Link: Project Documentations](https://maydeyn.github.io/MS1/)
+### [Live Link: Homepage](https://maydeyn.github.io/MS1/)
 
 Projects:
 * [Instruction Sets for Strangers](https://maydeyn.github.io/MS1/instructions_for_strangers.html)
