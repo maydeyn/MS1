@@ -1,4 +1,4 @@
-#### Parsons MAF Design and Technology
+#### Parsons MFA Design and Technology
 #### Major Studio 1 Project Documentations
 #### Professor: Harpreet Sareen
 ### [Live Link: Homepage](https://maydeyn.github.io/MS1/)
