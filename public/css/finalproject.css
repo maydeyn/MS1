@@ -126,3 +126,11 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+blockquote {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
