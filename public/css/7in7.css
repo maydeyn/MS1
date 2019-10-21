@@ -1,0 +1,147 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a:hover {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.caroni-font:hover {
+  color: white;
+  background-color: black;
+}
+
+.caroni-font {
+  margin-left: 5%;
+  display: inline-block;
+  font-weight: 100;
+  letter-spacing: 20px;
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+#instructions_for_strangers {
+  text-align: center;
+  font-weight: 100;
+  color: black;
+  font-size: 30px;
+}
+
+.design-methods {
+  grid-row: 6;
+  grid-column: 3;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.behavior {
+  grid-row: 6;
+  grid-column: 4;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 0.8fr;
+  grid-template-rows: repeat(10, auto);
+  grid-row-gap: 10px;
+  line-height: 30px;
+  /* justify-items: center; */
+}
+
+#a1,
+#b2,
+#c3,
+#d4,
+#e5,
+#f6,
+#g7,
+#h8 {
+  grid-column: 2;
+}
+
+/* orange highlighter */
+.highlighter {
+  background-color: rgb(255, 208, 121);
+  font-weight: 900;
+}
+
+/*green highlighter */
+.green-hl {
+  background-color: rgb(134, 255, 123);
+  font-weight: 900;
+}
+
+/*Footer*/
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  padding: 30;
+  font-size: 24;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 75%;
+}
+
+#indent {
+  text-indent: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.big {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.big a:hover {
+  font-size: 80px;
+  font-weight: 900;
+  background-color: white;
+  color: black;
+}
